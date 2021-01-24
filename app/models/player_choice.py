@@ -6,4 +6,4 @@ player_2 = Player("Crystal", "scissors")
 
 players = [player_1,player_2] #do this in the function in class and also add into html.
 
-game_1 = Game()
+# game_1 = Game()

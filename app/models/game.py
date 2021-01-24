@@ -10,12 +10,14 @@ class Game:
     if player_1.choice.lower() == "rock" and player_2.choice.lower() == "rock":
       return None 
     if player_1.choice.lower() == "rock" and player_2.choice.lower() == "paper":
-      return "player_2 wins!"
+      return player_2.name + " wins!"
     if player_1.choice.lower() == "rock" and player_2.choice.lower() == "scissors":
-      return "Player_1 wins!"
+      return player_1.name + " wins!"
     if player_1.choice.lower() == "paper" and player_2.choice.lower() == "papper":
       return None
     if player_1.choice.lower() == "paper" and player_2.choice.lower() == "scissors":
-      return "Player_2 wins!"
+      return player_2.name + " wins!"
     if player_1.choice.lower() == "scissors" and player_2.choice.lower() == "scissors":
       return None 
+
+      #add 3 more iterations
